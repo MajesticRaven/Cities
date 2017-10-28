@@ -1,0 +1,31 @@
+QMessageBox {
+    background: #B0C4DE;    
+    font: large "Simpson";
+    font-size: 14px;
+
+}
+
+QPushButton {
+    border-radius: 12px;
+    background: rgba(146, 182, 248, 0.6);
+    font: large "Simpson";
+    font-size: 14px;
+    min-width: 150px;
+    min-height: 30px;
+}
+
+QLabel {
+    background: rgba(148, 190, 202, 0.4);
+    padding: 5px;
+    color: black;
+    font-size: 16px;
+    opacity: 0.75;
+}
+
+QLineEdit {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+QComboBox QAbstractItemView {
+    selection-background-color: rgba(146, 182, 248, 0.6);
+}
